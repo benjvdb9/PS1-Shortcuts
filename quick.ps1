@@ -1,4 +1,4 @@
-$file = "C:\Users\b.vandenbussche\OneDrive - WESTPOLE\Documents\Shortcuts\quickpath.txt"
+$file = "$PSScriptRoot\quickpath.txt"
 
 if ($args[0] -like 's*')
 {
