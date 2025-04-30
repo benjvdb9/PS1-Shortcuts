@@ -1,0 +1,17 @@
+format = """
+[](#9A348E)\
+$directory(bg:#9A348E)\
+[ ](fg:#9A348E)\
+"""
+
+[directory]
+style = "bg:#9A348E"
+format = "[ $path ]($style)"
+truncation_length = 1
+truncation_symbol = ""
+
+[directory.substitutions]
+"C:/" = "🥕 "
+"~" = "🐋"
+"🥕 Workspace/Road" = "🚗"
+"🥕 Workspace/Aviation" = "✈ "
